@@ -164,7 +164,7 @@ func GetBucketInfo(bucketName string) (bucketInfo BucketInfo, err error) {
 	return
 }
 
-// BucketInfosForRegion 获取指定区域的该用户的所有bucketInfo信息
+// BucketInfosInRegion 获取指定区域的该用户的所有bucketInfo信息
 func BucketInfosInRegion(region RegionID) (bucketInfos []BucketInfo, err error) {
 	return
 }

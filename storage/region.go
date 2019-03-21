@@ -31,7 +31,7 @@ type Region struct {
 
 type RegionID string
 
-// GetDefaultReion 根据RegionID获取对应的Region信息
+// GetRegionByID 根据RegionID获取对应的Region信息
 func GetRegionByID(regionID RegionID) (Region, bool) {
 	if r, ok := regionMap[regionID]; ok {
 		return r, ok

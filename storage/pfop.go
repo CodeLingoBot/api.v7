@@ -29,7 +29,7 @@ func NewOperationManager(mac *auth.Credentials, cfg *Config) *OperationManager {
 	}
 }
 
-// NewOperationManager 用来构建一个新的数据处理对象
+// NewOperationManagerEx 用来构建一个新的数据处理对象
 func NewOperationManagerEx(mac *auth.Credentials, cfg *Config, clt *client.Client) *OperationManager {
 	if cfg == nil {
 		cfg = &Config{}
